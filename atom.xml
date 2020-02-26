@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://miawu-jojo.github.io/"/>
-  <updated>2020-02-26T11:41:37.978Z</updated>
+  <updated>2020-02-26T11:50:12.190Z</updated>
   <id>http://miawu-jojo.github.io/</id>
   
   <author>
@@ -17,13 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>图片插入</title>
+    <link href="http://miawu-jojo.github.io/2020/02/26/%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5/"/>
+    <id>http://miawu-jojo.github.io/2020/02/26/%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5/</id>
+    <published>2020-02-26T11:48:21.000Z</published>
+    <updated>2020-02-26T11:50:12.190Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="First"><a href="#First" class="headerlink" title="First"></a>First</h2><p>1 把主页配置文件<code>_config.yml</code> 里的<code>post_asset_folder:</code>这个选项设置为<code>true</code></p><p>2 在你的hexo目录下执行这样一句话<code>npm install hexo-asset-image --save</code>，这是下载安装一个可以上传本地图片的插件，来自dalao：<a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">dalao的git</a></p><p>3 等待一小段时间后，再运行<code>hexo n &quot;xxxx&quot;</code>来生成md博文时，<code>/source/_posts</code>文件夹内除了<code>xxxx.md</code>文件还有一个<strong>同名的文件夹</strong></p><h2 id="Second"><a href="#Second" class="headerlink" title="Second"></a>Second</h2><p>4 最后在<code>xxxx.md</code>中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![你想输入的替代文字](xxxx&#x2F;图片名.jpg)</span><br></pre></td></tr></table></figure><p><strong>注意：</strong> xxxx是这个md文件的名字，也是同名文件夹的名字。只需要有文件夹名字即可，不需要有什么绝对路径。你想引入的图片就只需要放入xxxx这个文件夹内就好了，很像引用相对路径。</p><p>5 最后检查一下，<code>hexo g</code>生成页面后，进入<code>public\2017\02\26\index.html</code>文件中查看相关字段，可以发现，html标签内的语句是<code>`，而不是</code>。这很重要，关乎你的网页是否可以真正加载你想插入的图片。</p><p>先码住</p><p>转自：<a href="https://blog.csdn.net/qq_37497322/article/details/80628713" target="_blank" rel="noopener">https://blog.csdn.net/qq_37497322/article/details/80628713</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;First&quot;&gt;&lt;a href=&quot;#First&quot; class=&quot;headerlink&quot; title=&quot;First&quot;&gt;&lt;/a&gt;First&lt;/h2&gt;&lt;p&gt;1 把主页配置文件&lt;code&gt;_config.yml&lt;/code&gt; 里的&lt;code&gt;post_asset_folde
+      
+    
+    </summary>
+    
+    
+    
+      <category term="搭建博客" scheme="http://MIAWU-jojo.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hello-world</title>
     <link href="http://miawu-jojo.github.io/2020/02/26/hello-world/"/>
     <id>http://miawu-jojo.github.io/2020/02/26/hello-world/</id>
     <published>2020-02-26T11:17:08.940Z</published>
     <updated>2020-02-26T11:41:37.978Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h1><p>​    小白本白在跟着某乎dalao的教程，经历了一天时间，终于成功了。莫名开心。</p><p>​    本来只是一时兴起，见到一堆大佬网站中的神奇界面，小白我心神俱往，希望我以后坚持写坚持学吧；</p><p>​    最后简单谈谈本博客的内容吧</p><p>​    就以随笔和学习为主吧（貌似我好像就能写这两项了）</p><p>​    QWQ第一个博客就这么草率地没了</p><p>​    最后放张图吧</p><p><img src="hello-world/1.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h1><p>​    小白本白在跟着某乎dalao的教程，经历了一天时间，终于成功了。莫名开心。</p><p>​    本来只是一时兴起，见到一堆大佬网站中的神奇界面，小白我心神俱往，希望我以后坚持写坚持学吧；</p><p>​    最后简单谈谈本博客的内容吧</p><p>​    就以随笔和学习为主吧（貌似我好像就能写这两项了）</p><p>​    QWQ第一个博客就这么草率地没了</p><p>​    最后放张图吧</p><p><img src="/2020/02/26/hello-world/1.jpg" alt></p>]]></content>
     
     <summary type="html">
     
