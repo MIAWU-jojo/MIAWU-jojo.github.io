@@ -4,7 +4,7 @@
     <title>博客功能更新</title>
     <url>/2020/03/03/%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD%E6%9B%B4%E6%96%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-DcUFmfPV" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895518273" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"></div>
+    <div id="aplayer-IguNdVFu" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895518273" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"></div>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​    经过了两次的莫名“神奇”事故，憨憨本憨终于认识到了备份与及时记录那些刚接触知识的重要性</p>
 <p>结果固然重要，但是过程才是真正的学习，修养不会来自速成</p>
 <h4 id="2020-3-3"><a href="#2020-3-3" class="headerlink" title="2020.3.3"></a>2020.3.3</h4><h5 id="更新了博客音乐插件-hexo-tag-aplayer"><a href="#更新了博客音乐插件-hexo-tag-aplayer" class="headerlink" title="更新了博客音乐插件    hexo-tag-aplayer"></a>更新了博客音乐插件    <a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer</a></h5><p>就总结下最简单的操作吧</p>
@@ -15,98 +15,98 @@
 <p>在 Hexo 配置文件 <code>_config.yml</code> 中设置：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
 <p>接着就可以通过 <code>
-    <div id="aplayer-OLJohmsa" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="..." data-server="undefined" data-type="undefined" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div></code> 在博客中使用 MetingJS 播放器了<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;60198&quot; &quot;netease&quot; &quot;playlist&quot; &quot;autoplay:false&quot; &quot;mutex:false&quot; &quot;listmaxheight:340px&quot; &quot;preload:none&quot; &quot;theme:#ad7a86&quot;%&#125;</span><br></pre></td></tr></table></figure></p>
+    <div id="aplayer-KAVjeQSU" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="..." data-server="undefined" data-type="undefined" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div></code> 在博客中使用 MetingJS 播放器了<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;60198&quot; &quot;netease&quot; &quot;playlist&quot; &quot;autoplay:false&quot; &quot;mutex:false&quot; &quot;listmaxheight:340px&quot; &quot;preload:none&quot; &quot;theme:#ad7a86&quot;%&#125;</span><br></pre></td></tr></table></figure></p>
 <p>有关 <code>
-    <div id="aplayer-hHarcQIK" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="undefined" data-server="undefined" data-type="undefined" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div></code> 的选项列表如下:</p>
+    <div id="aplayer-qulsYmBv" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="undefined" data-server="undefined" data-type="undefined" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div></code> 的选项列表如下:</p>
 <div class="table-container">
 <table>
 <thead>
 <tr>
-<th>选项</th>
-<th>默认值</th>
-<th>描述</th>
+<th style="text-align:center">选项</th>
+<th style="text-align:center">默认值</th>
+<th style="text-align:left">描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>id</td>
-<td><strong>必须值</strong></td>
-<td>歌曲 id / 播放列表 id / 相册 id / 搜索关键字(歌曲id如何得到可自行百度，<a href="https://jingyan.baidu.com/article/ce09321bb8f0db2bff858f8b.htmlhttps://jingyan.baidu.com/article/ce09321bb8f0db2bff858f8b.html" target="_blank" rel="noopener">传送门</a>链接形式不完全一样，但就是第一串数字)</td>
+<td style="text-align:center">id</td>
+<td style="text-align:center"><strong>必须值</strong></td>
+<td style="text-align:left">歌曲 id / 播放列表 id / 相册 id / 搜索关键字(歌曲id如何得到可自行百度，<a href="https://jingyan.baidu.com/article/ce09321bb8f0db2bff858f8b.html" target="_blank" rel="noopener">传送门</a>链接形式不完全一样，但就是第一串数字)</td>
 </tr>
 <tr>
-<td>server</td>
-<td><strong>必须值</strong></td>
-<td>音乐平台: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td>
+<td style="text-align:center">server</td>
+<td style="text-align:center"><strong>必须值</strong></td>
+<td style="text-align:left">音乐平台: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td>
 </tr>
 <tr>
-<td>type</td>
-<td><strong>必须值</strong></td>
-<td><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td>
+<td style="text-align:center">type</td>
+<td style="text-align:center"><strong>必须值</strong></td>
+<td style="text-align:left"><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td>
 </tr>
 <tr>
-<td>fixed</td>
-<td><code>false</code></td>
-<td>开启固定模式</td>
+<td style="text-align:center">fixed</td>
+<td style="text-align:center"><code>false</code></td>
+<td style="text-align:left">开启固定模式</td>
 </tr>
 <tr>
-<td>mini</td>
-<td><code>false</code></td>
-<td>开启迷你模式</td>
+<td style="text-align:center">mini</td>
+<td style="text-align:center"><code>false</code></td>
+<td style="text-align:left">开启迷你模式</td>
 </tr>
 <tr>
-<td>loop</td>
-<td><code>all</code></td>
-<td>列表循环模式：<code>all</code>, <code>one</code>,<code>none</code></td>
+<td style="text-align:center">loop</td>
+<td style="text-align:center"><code>all</code></td>
+<td style="text-align:left">列表循环模式：<code>all</code>, <code>one</code>,<code>none</code></td>
 </tr>
 <tr>
-<td>order</td>
-<td><code>list</code></td>
-<td>列表播放模式： <code>list</code>, <code>random</code></td>
+<td style="text-align:center">order</td>
+<td style="text-align:center"><code>list</code></td>
+<td style="text-align:left">列表播放模式： <code>list</code>, <code>random</code></td>
 </tr>
 <tr>
-<td>volume</td>
-<td>0.7</td>
-<td>播放器音量</td>
+<td style="text-align:center">volume</td>
+<td style="text-align:center">0.7</td>
+<td style="text-align:left">播放器音量</td>
 </tr>
 <tr>
-<td>lrctype</td>
-<td>0</td>
-<td>歌词格式类型</td>
+<td style="text-align:center">lrctype</td>
+<td style="text-align:center">0</td>
+<td style="text-align:left">歌词格式类型</td>
 </tr>
 <tr>
-<td>listfolded</td>
-<td><code>false</code></td>
-<td>指定音乐播放列表是否折叠</td>
+<td style="text-align:center">listfolded</td>
+<td style="text-align:center"><code>false</code></td>
+<td style="text-align:left">指定音乐播放列表是否折叠</td>
 </tr>
 <tr>
-<td>storagename</td>
-<td><code>metingjs</code></td>
-<td>LocalStorage 中存储播放器设定的键名</td>
+<td style="text-align:center">storagename</td>
+<td style="text-align:center"><code>metingjs</code></td>
+<td style="text-align:left">LocalStorage 中存储播放器设定的键名</td>
 </tr>
 <tr>
-<td>autoplay</td>
-<td><code>true</code></td>
-<td>自动播放，移动端浏览器暂时不支持此功能</td>
+<td style="text-align:center">autoplay</td>
+<td style="text-align:center"><code>true</code></td>
+<td style="text-align:left">自动播放，移动端浏览器暂时不支持此功能</td>
 </tr>
 <tr>
-<td>mutex</td>
-<td><code>true</code></td>
-<td>该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</td>
+<td style="text-align:center">mutex</td>
+<td style="text-align:center"><code>true</code></td>
+<td style="text-align:left">该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</td>
 </tr>
 <tr>
-<td>listmaxheight</td>
-<td><code>340px</code></td>
-<td>播放列表的最大长度</td>
+<td style="text-align:center">listmaxheight</td>
+<td style="text-align:center"><code>340px</code></td>
+<td style="text-align:left">播放列表的最大长度</td>
 </tr>
 <tr>
-<td>preload</td>
-<td><code>auto</code></td>
-<td>音乐文件预载入模式，可选项： <code>none</code>, <code>metadata</code>, <code>auto</code></td>
+<td style="text-align:center">preload</td>
+<td style="text-align:center"><code>auto</code></td>
+<td style="text-align:left">音乐文件预载入模式，可选项： <code>none</code>, <code>metadata</code>, <code>auto</code></td>
 </tr>
 <tr>
-<td>theme</td>
-<td><code>#ad7a86</code></td>
-<td>播放器风格色彩设置</td>
+<td style="text-align:center">theme</td>
+<td style="text-align:center"><code>#ad7a86</code></td>
+<td style="text-align:left">播放器风格色彩设置</td>
 </tr>
 </tbody>
 </table>
@@ -117,7 +117,7 @@
 <p>2.在<code>next</code>/<code>layout</code>/<code>_macro</code>/<code>post.swig</code>中添加代码</p>
 <figure class="highlight jsx"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"post-meta"</span>&gt;（紧贴着前面，可用crtl+f搜索）</span><br><span class="line">        &#123;% <span class="keyword">if</span> post.top %&#125; </span><br><span class="line">        &lt;i <span class="class"><span class="keyword">class</span></span>=<span class="string">"fa fa-thumb-tack"</span>&gt;&lt;<span class="regexp">/i&gt; </span></span><br><span class="line"><span class="regexp">        &lt;font color=7D26CD&gt;置顶&lt;/</span>font&gt; </span><br><span class="line">        &lt;span <span class="class"><span class="keyword">class</span></span>=<span class="string">"post-meta-divider"</span>&gt;|&lt;<span class="regexp">/span&gt; </span></span><br><span class="line"><span class="regexp">        &#123;% endif %&#125;</span></span><br></pre></td></tr></table></figure>
 <p>3.编辑相关文章在Front-matter（文件最上方以—-分隔的区域）加上一行：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">top: 1</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line">设置1就是最置顶，然后是2，3等。</span><br><span class="line">数字大的在前面。</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">top: 1</span><br><span class="line">注意：</span><br><span class="line">设置1就是最置顶，然后是2，3等。</span><br><span class="line">数字大的在前面。</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>备份</tag>
       </tags>

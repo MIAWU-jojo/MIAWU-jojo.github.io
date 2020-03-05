@@ -69,6 +69,14 @@
     isPost: false
   };
 </script>
+<script>
+  ((w, d) => {
+    'use strict';
+      const userScheme = localStorage.getItem('Scheme');
+      if (!userScheme) return;
+    d.documentElement.className += ' darkScheme';
+  })(window, document);
+</script>
 
   <title>郁蒸</title>
   
@@ -225,7 +233,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-04 10:36:26" itemprop="dateModified" datetime="2020-03-04T10:36:26+08:00">2020-03-04</time>
+                <time title="修改时间：2020-03-05 08:50:07" itemprop="dateModified" datetime="2020-03-05T08:50:07+08:00">2020-03-05</time>
               </span>
 
           
@@ -267,7 +275,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <div id="aplayer-DcUFmfPV" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895518273" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"></div>
+          <div id="aplayer-IguNdVFu" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895518273" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"></div>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​    经过了两次的莫名“神奇”事故，憨憨本憨终于认识到了备份与及时记录那些刚接触知识的重要性</p>
 <p>结果固然重要，但是过程才是真正的学习，修养不会来自速成</p>
 <h4 id="2020-3-3"><a href="#2020-3-3" class="headerlink" title="2020.3.3"></a>2020.3.3</h4><h5 id="更新了博客音乐插件-hexo-tag-aplayer"><a href="#更新了博客音乐插件-hexo-tag-aplayer" class="headerlink" title="更新了博客音乐插件    hexo-tag-aplayer"></a>更新了博客音乐插件    <a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer</a></h5><p>就总结下最简单的操作吧</p>
@@ -698,6 +706,12 @@
   </div>
 
 
+<div class="night-mode motion-element">
+  <a role="button" class="night-btn">
+    <i class="fa fa-lightbulb-o"></i>
+    Night Mode
+  </a>
+</div>
 
       </div>
 
@@ -829,6 +843,25 @@ if (document.querySelectorAll('div.pdf').length) {
   
 
   
+<script>
+  ((w, d) => {
+    'use strict';
+      let userScheme = localStorage.getItem('Scheme');
+      if (userScheme) d.documentElement.className += ' darkScheme';
+      const btn = d.querySelector('.night-btn');
+      w.addEventListener('keydown', e => {
+        if (e.altKey && e.code === 'KeyX') btn.click();
+      });
+      btn.addEventListener('click', () => {
+        d.documentElement.classList.toggle('darkScheme');
+        if ( d.documentElement.classList.contains('darkScheme') ) {
+          localStorage.setItem('Scheme', 'Dark');
+          return;
+        }
+        localStorage.removeItem('Scheme');
+      });
+  })(window, document);
+</script>
 
 
 <script>
