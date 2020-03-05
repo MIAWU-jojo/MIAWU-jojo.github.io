@@ -1165,11 +1165,6 @@ pre .javascript .function {
   border-bottom-color: #eee;
   color: #eee;
 }
-@media (max-width: 991px) {
-  .sidebar {
-    display: none;
-  }
-}
 .sidebar-inner {
   color: #999;
   padding: 18px 10px;
@@ -1230,7 +1225,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff7320;
+  background: #ffff18;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1355,7 +1350,6 @@ pre .javascript .function {
   .sidebar-toggle {
     left: 20px;
     opacity: 0.8;
-    display: none;
   }
 }
 .sidebar-toggle:hover .toggle-line {
@@ -1565,6 +1559,16 @@ pre .javascript .function {
     left: 20px;
     opacity: 0.8;
   }
+}
+.reading-progress-bar {
+  background: #37c6c0;
+  display: block;
+  height: 3px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 0;
+  z-index: 1500;
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -2429,4 +2433,134 @@ embed {
 }
 .night-mode a:hover i {
   color: #fafafa;
+}
+/* 自定义的侧栏时间样式 */
+#days {
+  display: block;
+  color: #07b39b;
+  font-size: 13px;
+  margin-top: 15px;
+}
+/* 24生肖 */
+.chinese-zodiac {
+  float: right;
+}
+@font-face {
+  font-family: 'chinese-zodiac';
+  font-display: swap;
+  src: url("/fonts/chinese-zodiac.eot");
+  src: url("/fonts/chinese-zodiac.eot") format('embedded-opentype'), url("/fonts/chinese-zodiac.woff2") format('woff2'), url("/fonts/chinese-zodiac.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.symbolic-animals {
+  display: inline-block;
+  font: normal normal normal 14px/1 chinese-zodiac;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-dragon:before {
+  content: '\e806';
+}
+.icon-tiger:before {
+  content: '\e809';
+}
+.icon-pig:before {
+  content: '\e810';
+}
+.icon-horse:before {
+  content: '\e813';
+}
+.icon-rat:before {
+  content: '\e816';
+}
+.icon-goat:before {
+  content: '\e818';
+}
+.icon-snake:before {
+  content: '\e820';
+}
+.icon-ox:before {
+  content: '\e822';
+}
+.icon-dog:before {
+  content: '\e825';
+}
+.icon-rabbit:before {
+  content: '\e826';
+}
+.icon-monkey:before {
+  content: '\e829';
+}
+.icon-rooster:before {
+  content: '\e82f';
+}
+/* 自定义emoji样式 */
+img#github-emoji {
+  margin: 0px;
+  padding: 0px;
+  display: inline !important;
+  vertical-align: text-bottom;
+  border: none;
+  cursor: text;
+  box-shadow: none;
+}
+/* 文章超链接样式（为emoji特设） */
+.post-body a {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post-body a:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+/* 标签云页面超链接样式（为emoji特设） */
+.tag-cloud a {
+  color: #5073b8;
+  border-bottom: 1px solid #5073b8;
+  text-decoration: none;
+}
+.tag-cloud a:hover {
+  color: #a166ab;
+  border-bottom: 1px solid #a166ab;
+  text-decoration: none;
+}
+/* 文章元数据中categories的样式（为emoji特设） */
+a.categories {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+a.categories:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+/* tabs标签（为emoji特设） */
+.post-body .tabs ul.nav-tabs li.tab a {
+  text-decoration: none;
+}
+/* 图片下方标题设置（为emoji特设） */
+a.fancybox {
+  text-decoration: none !important;
+}
+/* 按钮样式（为emoji特设） */
+.btn {
+  color: #fff !important;
+  text-decoration: none !important;
+  border: 2px solid #222 !important;
+}
+.btn:hover {
+  color: #222 !important;
+}
+.post {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
