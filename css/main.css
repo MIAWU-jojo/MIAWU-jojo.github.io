@@ -1225,7 +1225,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #cdbb1c;
+  background: #95e233;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2578,15 +2578,39 @@ a.fancybox {
   font-family: "KaiTi";
   font-size: 11px;
 }
-.content-wrap {
-  opacity: 0.85;
+#poem_sentence {
+  text-align: center;
+  font-family: "KaiTi";
+  font-size: 20px;
 }
-.sidebar {
-  opacity: 0.85;
+#poem_info {
+  text-align: center;
+  font-family: "KaiTi";
+  font-size: 15px;
 }
-.header-inner {
-  background: rgba(255,255,255,0.85);
+.poem-border {
+  position: absolute;
+  height: 2px;
+  width: 27%;
+  background-color: #797979;
 }
-.popup {
-  opacity: 0.9;
+.poem-wrap {
+  position: relative;
+  width: 730px;
+  max-width: 80%;
+  border: 2px solid #797979;
+  border-top: 0;
+  text-align: center;
+  margin: 80px auto;
+}
+.poem-left {
+  left: 0;
+}
+.poem-right {
+  right: 0;
+}
+.my_title {
+  text-align: center;
+  font-family: "KaiTi";
+  font-size: 40px;
 }
