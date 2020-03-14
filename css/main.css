@@ -1225,7 +1225,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ed4eff;
+  background: #d5b6df;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2566,20 +2566,25 @@ a.fancybox {
 }
 .hitokoto-title {
   text-align: center;
+  color: #07b39b;
   font-size: 12px;
 }
 #hitokoto {
   text-align: left;
-  font-family: "KaiTi";
+  color: #07b39b;
+  font-weight: 12px;
+  font-family: "NSimSun";
   font-size: 15px;
 }
 #hitofrom {
   float: right;
-  font-family: "KaiTi";
+  color: #07b39b;
+  font-family: "NSimSun";
   font-size: 11px;
 }
 #poem_sentence {
   text-align: center;
+  color: #000;
   font-family: "KaiTi";
   font-size: 20px;
 }
@@ -2613,4 +2618,34 @@ a.fancybox {
   text-align: center;
   font-family: "KaiTi";
   font-size: 40px;
+}
+.back-to-top {
+  right: 60px;
+  width: 70px;
+  height: 900px;
+  top: -900px;
+  bottom: unset;
+  transition: all 0.5s ease-in-out;
+  background: url("https://images-cosmos.s3-ap-southeast-1.amazonaws.com/theme/scroll.png");
+}
+.back-to-top > i {
+  display: none;
+}
+.back-to-top.back-to-top-on {
+  bottom: unset;
+  top: calc(100vh - 900px - 200px);
+}
+.sidebar {
+  display: block;
+  width: 320px;
+  background-image: url("https://cdn.jsdelivr.net/gh/MIAWU-jojo/cdn@1.3/img/sidebar-bg.jpg");
+  background-size: 400px, 424px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5 !important;
+}
+.sidebar p,
+.sidebar span,
+.sidebar a {
+  color: #080808;
 }
