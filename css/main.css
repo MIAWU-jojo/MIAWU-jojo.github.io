@@ -1225,7 +1225,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffac53;
+  background: #393eff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2782,3 +2782,8 @@ p.shuoshuo_time {
   -moz-transform: rotateZ(720deg);
 }
 /* end */
+.end {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
